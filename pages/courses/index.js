@@ -10,6 +10,7 @@ const CoursesPage = () => {
         p="Online learning is revolutionizing education, opening doors to new
           opportunities and advancements."
       />
+      <div>{}</div>
     </div>
   );
 };
