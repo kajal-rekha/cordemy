@@ -50,7 +50,13 @@ const CourseItem = ({ course }) => {
           <p className="text-lg font-semibold">
             {currencyConverter(course.price, "en-US", "EUR")}
           </p>
-          <Button href={`/courses/${course.id}`} placeholder="View Details" />
+          <Button
+            href={`/courses/${course.id}`}
+            placeholder="View Details"
+            color="primary"
+            size="default"
+            // size="full"
+          />
         </div>
       </div>
     </div>

@@ -25,10 +25,12 @@ const Navbar = () => {
         </div>
 
         <div>
-          {/* <Link href="/login" className="hover:text-white transition-color">
-            Sign in
-          </Link> */}
-          <Button href="/login" placeholder="Sign in" />
+          <Button
+            href="/login"
+            placeholder="Sign in"
+            color="secondary"
+            size="default"
+          />
         </div>
       </div>
     </div>
