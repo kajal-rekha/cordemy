@@ -27,8 +27,8 @@ const AboutPage = () => {
         </div>
         <div className="lg:w-1/2">
           <img
-            src="https://f.hubspotusercontent10.net/hubfs/6448316/are-free-online-courses-worth-it.jpg"
-            alt=""
+            src="https://res.cloudinary.com/dh0ado2ir/image/upload/v1683927759/pexels-george-milton-7014337_n8947x.jpg"
+            alt="about image"
             className="rounded-lg shadow-lg "
           />
         </div>
@@ -37,9 +37,9 @@ const AboutPage = () => {
       <div className="mt-28 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 ">
         <div className="bg-white p-6 rounded-lg shadow-lg">
           <img
-            src="https://media.istockphoto.com/id/1322277517/photo/wild-grass-in-the-mountains-at-sunset.jpg?s=612x612&w=0&k=20&c=6mItwwFFGqKNKEAzv0mv6TaxhLN3zSE43bWmFN--J5w="
+            src="https://res.cloudinary.com/dh0ado2ir/image/upload/v1683927749/pexels-anna-shvets-5325054_qss8by.jpg"
             alt=""
-            className="w-24 h-20 mx-auto mb-6 rounded-sm"
+            className="w-28 h-20 mx-auto mb-6 rounded-sm"
           />
           <h3 className="text-xl font-bold mb-4">Accessible</h3>
           <p className="text-lg text-gray-600">
@@ -51,9 +51,9 @@ const AboutPage = () => {
         </div>
         <div className="bg-white p-6 rounded-lg shadow-lg">
           <img
-            src="https://media.istockphoto.com/id/1322277517/photo/wild-grass-in-the-mountains-at-sunset.jpg?s=612x612&w=0&k=20&c=6mItwwFFGqKNKEAzv0mv6TaxhLN3zSE43bWmFN--J5w="
+            src="https://res.cloudinary.com/dh0ado2ir/image/upload/v1683927737/pexels-erik-mclean-6284359_tjrmn0.jpg"
             alt=""
-            className="w-24 h-20 mx-auto mb-6 rounded-sm"
+            className="w-28 h-20 mx-auto mb-6 rounded-sm"
           />
           <h3 className="text-xl font-bold mb-4">Engaging</h3>
           <p className="text-lg text-gray-600">
@@ -65,9 +65,9 @@ const AboutPage = () => {
         </div>
         <div className="bg-white p-6 rounded-lg shadow-lg">
           <img
-            src="https://media.istockphoto.com/id/1322277517/photo/wild-grass-in-the-mountains-at-sunset.jpg?s=612x612&w=0&k=20&c=6mItwwFFGqKNKEAzv0mv6TaxhLN3zSE43bWmFN--J5w="
+            src="https://res.cloudinary.com/dh0ado2ir/image/upload/v1683928185/pexels-nataliya-vaitkevich-5186379_mm5y2j.jpg"
             alt=""
-            className="w-24 h-20 mx-auto mb-6 rounded-sm"
+            className="w-28 h-20 mx-auto mb-6 rounded-sm"
           />
           <h3 className="text-xl font-bold mb-4">Practical</h3>
           <p className="text-lg text-gray-600">
