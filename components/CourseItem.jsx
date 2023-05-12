@@ -1,4 +1,4 @@
-import { currencyConverter } from "@/utls/currencyConverter";
+import { currencyConverter } from "@/utils/currencyConverter";
 import Image from "next/image";
 //import Link from "next/link";
 import { AiOutlineStar } from "react-icons/ai";
