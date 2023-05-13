@@ -1,13 +1,42 @@
+import emailjs from "@emailjs/browser";
+import { useRef } from "react";
+
 const ContactPage = () => {
+  const formRef = useRef(null);
+
   const sendEmail = (e) => {
     e.preventDefault();
+
+    //emailjs integration
+
+    emailjs
+      .sendForm(
+        process.env.NEXT_PUBLIC_SERVICE_ID,
+        process.env.NEXT_PUBLIC_TEMPLATE_ID,
+        formRef.current,
+        process.env.NEXT_PUBLIC_USER_ID
+      )
+      .then(
+        () => {
+          console.log("message send");
+        },
+        () => {
+          console.log("message not send");
+        }
+      );
+    // reset
+    e.target.querySelector(".name").value = "";
+    e.target.querySelector(".email").value = "";
+    e.target.querySelector(".message").value = "";
   };
+
   return (
-    <div className=" contact container mx-auto mt-20 h-screen">
+    <div className="contact container mx-auto mt-20 h-screen">
       <h2 className="text-5xl text-center font-medium  ">Contact Us</h2>
       <form
         onSubmit={sendEmail}
         className="contact-form flex flex-col gap-5 py-10 mx-auto max-w-lg"
+        ref={formRef}
       >
         <div className="form-control flex flex-col gap-2">
           <label htmlFor="name" className="cursor-pointer">
@@ -17,7 +46,7 @@ const ContactPage = () => {
             type="name"
             name="name"
             placeholder="write your name"
-            className="border border-gray-300 focus:border-gray-600 py-3 px-5 rounded-xl outline-none duration-300 "
+            className=" name border border-gray-300 focus:border-gray-600 py-3 px-5 rounded-xl outline-none duration-300 "
           />
         </div>
         <div className="form-control flex flex-col gap-2">
@@ -28,7 +57,7 @@ const ContactPage = () => {
             type="email"
             name="email"
             placeholder="write your email"
-            className=" border border-gray-300 focus:border-gray-600 py-3 px-5 rounded-xl outline-none duration-300"
+            className=" email border border-gray-300 focus:border-gray-600 py-3 px-5 rounded-xl outline-none duration-300"
           />
         </div>
 
@@ -44,10 +73,9 @@ const ContactPage = () => {
             className="message border border-gray-300 focus:border-gray-600 h-40 rounded-xl outline-none py-5 px-5 resize-none duration-300"
           />
         </div>
-        <input
-          type="submit"
-          className="px-2 py-5 bg-black text-white rounded-xl"
-        />
+        <div className="submit px-2 py-5  rounded-xl bg-black text-center overflow-hidden">
+          <input type="submit" className=" text-white" />
+        </div>
       </form>
     </div>
   );
