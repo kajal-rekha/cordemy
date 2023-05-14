@@ -18,10 +18,10 @@ const ContactPage = () => {
       )
       .then(
         () => {
-          console.log("message send");
+          console.log("Your message sent!");
         },
         () => {
-          console.log("message not send");
+          console.log("Failed, please try again later!");
         }
       );
     // reset
@@ -31,7 +31,7 @@ const ContactPage = () => {
   };
 
   return (
-    <div className="contact container mx-auto mt-20 h-screen">
+    <div className="contact container mx-auto mt-20 min-h-screen">
       <h2 className="text-5xl text-center font-medium  ">Contact Us</h2>
       <form
         onSubmit={sendEmail}
