@@ -2,14 +2,14 @@ import SectionHeader from "@/components/SectionHeader";
 import { getCourse } from "@/prisma/courses";
 import { useSession } from "next-auth/react";
 import { useEffect, useState } from "react";
+import { loadStripe } from "@stripe/stripe-js";
+import axios from "axios";
+
+// stripe promise
+const stripePromise = loadStripe(process.env.NEXT_PUBLIC_STRIPE_PUBLIC_KEY);
 
 const Checkout = ({ course }) => {
   const { data: session } = useSession();
-
-  const handleCheckout = async (e) => {
-    e.preventDefault();
-    console.log(formData);
-  };
 
   const [formData, setFormData] = useState({
     name: "",
@@ -30,8 +30,35 @@ const Checkout = ({ course }) => {
     }
   }, [session]);
 
+  // checkout handler
+  const handleCheckout = async (e) => {
+    e.preventDefault();
+
+    const stripe = await stripePromise;
+
+    //send a post req to the server
+    const checkoutSession = await axios.post("/api/create-checkout-session", {
+      items: [course],
+      name: formData.name,
+      email: formData.email,
+      mobile: formData.mobile,
+      address: formData.address,
+      courseTitle: formData.courseTitle,
+      courseId: course.id,
+    });
+
+    // redirect to the stripe payment
+    const result = await stripe.redirectToCheckout({
+      sessionId: checkoutSession.data.id,
+    });
+
+    if (result.error) {
+      console.log(result.error.message);
+    }
+  };
+
   return (
-    <div className=" wrapper py-10 min-h-screen">
+    <div className="wrapper py-10 min-h-screen">
       <SectionHeader
         span={"Checkout"}
         h2={"Personalize Your Order by Sharing Your Details!"}
