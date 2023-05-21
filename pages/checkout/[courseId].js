@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 import { loadStripe } from "@stripe/stripe-js";
 import axios from "axios";
 
-// stripe promise
+// STRIPE PROMISE
 const stripePromise = loadStripe(process.env.NEXT_PUBLIC_STRIPE_PUBLIC_KEY);
 
 const Checkout = ({ course }) => {
@@ -30,7 +30,7 @@ const Checkout = ({ course }) => {
     }
   }, [session]);
 
-  // checkout handler
+  // CHECKOUT HANDLER
   const handleCheckout = async (e) => {
     e.preventDefault();
 
