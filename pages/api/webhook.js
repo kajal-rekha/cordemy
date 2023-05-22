@@ -41,6 +41,7 @@ const fullfillOrder = async (session) => {
 };
 
 async function webhook(req, res) {
+  2;
   if (req.method === "POST") {
     const requestBuffer = await buffer(req);
     const payload = requestBuffer.toString();

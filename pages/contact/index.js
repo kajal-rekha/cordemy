@@ -73,8 +73,10 @@ const ContactPage = () => {
             className="message border border-gray-300 focus:border-gray-600 h-40 rounded-xl outline-none py-5 px-5 resize-none duration-300"
           />
         </div>
-        <div className="submit px-2 py-5  rounded-xl bg-black text-center overflow-hidden">
-          <input type="submit" className=" text-white" />
+        <div className="submit px-2 py-5  rounded-xl bg-black text-center overflow-hidden hover:bg-gray-700 duration-300">
+          <button role="link" type="submit" className=" text-white uppercase">
+            Send
+          </button>
         </div>
       </form>
     </div>
