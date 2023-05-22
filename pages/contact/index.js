@@ -1,5 +1,6 @@
 import emailjs from "@emailjs/browser";
 import { useRef } from "react";
+import { toast } from "react-toastify";
 
 const ContactPage = () => {
   const formRef = useRef(null);
@@ -18,10 +19,28 @@ const ContactPage = () => {
       )
       .then(
         () => {
-          console.log("Your message sent!");
+          toast.success("Your message sent!", {
+            position: "bottom-left",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "dark",
+          });
         },
         () => {
-          console.log("Failed, please try again later!");
+          toast.error("Failed, please try again later!", {
+            position: "bottom-left",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "dark",
+          });
         }
       );
     // reset
@@ -46,7 +65,8 @@ const ContactPage = () => {
             type="name"
             name="name"
             placeholder="write your name"
-            className=" name border border-gray-300 focus:border-gray-600 py-3 px-5 rounded-xl outline-none duration-300 "
+            required
+            className=" name border border-gray-300 focus:border-gray-600 py-4 px-6 rounded-xl outline-none duration-300 "
           />
         </div>
         <div className="form-control flex flex-col gap-2">
@@ -57,7 +77,8 @@ const ContactPage = () => {
             type="email"
             name="email"
             placeholder="write your email"
-            className=" email border border-gray-300 focus:border-gray-600 py-3 px-5 rounded-xl outline-none duration-300"
+            required
+            className=" email border border-gray-300 focus:border-gray-600 py-4 px-6 rounded-xl outline-none duration-300"
           />
         </div>
 
@@ -67,6 +88,7 @@ const ContactPage = () => {
           </label>
           <textarea
             placeholder="Write your message"
+            required
             name="message"
             rows="1"
             cols="30"
