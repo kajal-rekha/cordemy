@@ -18,6 +18,11 @@ const Navbar = () => {
           <Link href="/courses" className="hover:text-white transition-color">
             Courses
           </Link>
+          {session && (
+            <Link href="/orders" className="hover:text-white transition-color">
+              Orders
+            </Link>
+          )}
           <Link href="/about" className="hover:text-white transition-color">
             About
           </Link>
