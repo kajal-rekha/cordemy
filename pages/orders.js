@@ -19,19 +19,19 @@ const OrderPage = ({ session, customer }) => {
   }
   return (
     <div className=" wrapper py-10 min-h-screen">
-      <h2 className="text-3xl mb-5">
+      <h2 className="text-4xl mb-5 text-center text-gray-800 ">
         You enrolled:{customer.orders.length} course
         {customer.orders.length > 1 ? "s" : ""}{" "}
       </h2>
 
-      <div className="courses flex flex-wrap gap-10">
+      <div className="courses flex flex-wrap gap-10 mt-20">
         {customer.orders.map((course) => (
           <div
             key={course.id}
             className="course p-5 shadow-md rounded-lg space-y-3"
           >
-            <h2 className="text-2xl">{course.courseTitle}</h2>
-            <p className="text-lg">
+            <h2 className="text-2xl text-gray-800">{course.courseTitle}</h2>
+            <p className="text-lg text-gray-800">
               Amount: {currencyConverter(course.amountTotal)}
             </p>
             <Button
