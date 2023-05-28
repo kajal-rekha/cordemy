@@ -1,15 +1,24 @@
 import { useSession } from "next-auth/react";
 import Link from "next/link";
 import Button from "./Button";
+import { motion } from "framer-motion";
+import { getTransition, shutterDown } from "@/utils/motion";
 
 const Navbar = () => {
   const { data: session } = useSession();
   return (
     <div className="h-20 bg-black text-gray-400 flex items-center">
       <div className="wrapper flex justify-between">
-        <Link href="/" className="text-white font-semibold">
-          Cordemy
-        </Link>
+        <motion.div
+          variants={shutterDown()}
+          initial="from"
+          animate="to"
+          transition={getTransition()}
+        >
+          <Link href="/" className="text-white font-semibold">
+            Cordemy
+          </Link>
+        </motion.div>
 
         <div className="flex gap-5">
           <Link href="/" className="hover:text-white transition-color">
