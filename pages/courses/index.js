@@ -5,7 +5,7 @@ import React from "react";
 
 const CoursesPage = ({ courses }) => {
   return (
-    <div className="wrapper py-10">
+    <div className="wrapper py-10 mt-40">
       <SectionHeader
         span="Courses"
         h2="Discover Diverse Courses for Growth"
