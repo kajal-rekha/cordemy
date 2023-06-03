@@ -4,7 +4,6 @@ import { currencyConverter } from "@/utils/currencyConverter";
 import { getSession } from "next-auth/react";
 import { useRouter } from "next/router";
 import { useEffect } from "react";
-
 const OrderPage = ({ session, customer }) => {
   const router = useRouter();
 

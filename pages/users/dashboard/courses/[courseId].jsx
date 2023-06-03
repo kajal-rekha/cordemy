@@ -1,7 +1,9 @@
-import React from "react";
-
 const CourseVideos = () => {
-  return <div>CourseVideos</div>;
+  return (
+    <div>
+      <h2>Course video</h2>
+    </div>
+  );
 };
 
 export default CourseVideos;
