@@ -1,8 +1,14 @@
+import Hero from "@/components/Hero";
 import { getAllCourses } from "@/prisma/courses";
 import CoursesPage from "./courses";
 
 const HomePage = ({ courses }) => {
-  return <CoursesPage courses={courses} />;
+  return (
+    <div>
+      <Hero />
+      <CoursesPage courses={courses} />
+    </div>
+  );
 };
 
 export default HomePage;
