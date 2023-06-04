@@ -32,9 +32,18 @@ const Navbar = () => {
               Orders
             </Link>
           )}
+
+          <Link
+            href="/testimonials"
+            className="hover:text-white transition-color"
+          >
+            Testimonials
+          </Link>
+
           <Link href="/about" className="hover:text-white transition-color">
             About
           </Link>
+
           <Link href="/contact" className="hover:text-white transition-color">
             Contact
           </Link>
