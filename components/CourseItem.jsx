@@ -62,7 +62,6 @@ const CourseItem = ({ course }) => {
             placeholder="View Details"
             color="primary"
             size="default"
-            // size="full"
           />
         </div>
       </div>

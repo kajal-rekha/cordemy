@@ -103,6 +103,9 @@ const TestimonialsPage = () => {
   return (
     <div className="frame wrapper py-10  min-h-screen">
       <h2 className="text-4xl text-center">Testimonials</h2>
+      <p className="text-lg text-center text-gray-700">
+        {`Here's what people are saying about cordemy `}{" "}
+      </p>
       <div
         className="slider"
         style={{ transform: `translateX(-${100 * currentSlide}vw)` }}
