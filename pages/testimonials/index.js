@@ -104,8 +104,10 @@ const TestimonialsPage = () => {
     <div className="frame wrapper py-10  min-h-screen">
       <div className="text-center">
         {" "}
-        <h2 className="text-3xl uppercase font-bold">Testimonials</h2>
-        <p className="text-lg text-gray-700">
+        <h2 className=" text-2xl md:text-3xl uppercase font-bold">
+          Testimonials
+        </h2>
+        <p className="md:text-lg text-gray-700">
           {`Here's what people are saying about cordemy `}{" "}
         </p>
       </div>
@@ -118,7 +120,7 @@ const TestimonialsPage = () => {
         ))}
       </div>
 
-      <div className="btns absolute w-screen justify-between bottom-28 z-[1]  text-3xl flex">
+      <div className="btns absolute w-screen justify-between bottom-28 z-[1]  text-3xl md:text-4xl flex">
         <button
           onClick={prevSlide}
           className="prev-btn w-14 h-12 lg:h-14 lg:w-20 flex justify-between  text-black"
