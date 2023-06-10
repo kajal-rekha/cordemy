@@ -31,11 +31,11 @@ const AboutPage = () => {
         </div>
         <div className="lg:w-1/2" data-aos="fade-up">
           <Image
-            src="https://res.cloudinary.com/dh0ado2ir/image/upload/v1686412438/free-online-courses_bjr3ox.jpg"
+            src="https://res.cloudinary.com/dh0ado2ir/image/upload/v1686416263/depositphotos_310552970-stock-photo-young-cheerful-african-american-woman_axzyus.webp"
             alt="about image"
             className="rounded-lg shadow-lg"
-            height={600}
-            width={600}
+            height={650}
+            width={650}
           />
         </div>
       </div>
