@@ -1,6 +1,6 @@
 import Slider from "@/components/Slider";
 import { useState } from "react";
-import { BsArrowLeft, BsArrowRight } from "react-icons/bs";
+import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
 const data = [
   {
@@ -102,10 +102,13 @@ const TestimonialsPage = () => {
 
   return (
     <div className="frame wrapper py-10  min-h-screen">
-      <h2 className="text-4xl text-center">Testimonials</h2>
-      <p className="text-lg text-center text-gray-700">
-        {`Here's what people are saying about cordemy `}{" "}
-      </p>
+      <div className="text-center">
+        {" "}
+        <h2 className="text-3xl uppercase font-bold">Testimonials</h2>
+        <p className="text-lg text-gray-700">
+          {`Here's what people are saying about cordemy `}{" "}
+        </p>
+      </div>
       <div
         className="slider"
         style={{ transform: `translateX(-${100 * currentSlide}vw)` }}
@@ -115,21 +118,21 @@ const TestimonialsPage = () => {
         ))}
       </div>
 
-      <div className="btns absolute  w-screen justify-between bottom-28 z-[1]  text-3xl flex gap-10 ">
+      <div className="btns absolute w-screen justify-between bottom-28 z-[1]  text-3xl flex">
         <button
           onClick={prevSlide}
           className="prev-btn w-14 h-12 lg:h-14 lg:w-20 flex justify-between  text-black"
         >
           <span>
-            <BsArrowLeft />
+            <IoIosArrowBack />
           </span>
         </button>
         <button
           onClick={nextSlide}
-          className="next-btn  w-14 h-12 lg:h-14 lg:w-20 flex justify-between   text-black"
+          className="next-btn mr-8 w-14 h-12 lg:h-14 lg:w-20 flex justify-between text-black"
         >
           <span>
-            <BsArrowRight />
+            <IoIosArrowForward />
           </span>
         </button>
       </div>
