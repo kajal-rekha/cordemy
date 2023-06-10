@@ -48,7 +48,7 @@ const Hero = () => {
         </div>
         <div className="hero-right ">
           <Image
-            src="https://res.cloudinary.com/dh0ado2ir/image/upload/v1686399436/depositphotos_213414306-stock-photo-successful-freelancer-typing-keyboard-using_f7iote.webp"
+            src="https://res.cloudinary.com/dh0ado2ir/image/upload/v1686412417/istockphoto-1329079924-612x612_wiejee.jpg"
             alt="image"
             width={500}
             height={500}
