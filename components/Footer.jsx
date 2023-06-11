@@ -1,3 +1,4 @@
+import { useSession } from "next-auth/react";
 import Link from "next/link";
 import {
   FaFacebookF,
@@ -7,6 +8,7 @@ import {
 } from "react-icons/fa";
 
 const Footer = () => {
+  const { data: session } = useSession();
   return (
     <footer className="bg-black">
       <div className="container mx-auto px-16 md:px-0 py-16">
@@ -36,7 +38,7 @@ const Footer = () => {
             >
               Quick Links
             </h2>
-            <ul className="text-gray-400 flex flex-col gap-3">
+            <ul className="text-gray-400  S gap-3">
               <li>
                 <Link
                   href="/"
@@ -47,12 +49,30 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="/course"
-                  className="hover:text-white transition duration-500 ease-in-out"
+                  href="/courses"
+                  className="hover:text-white transition-color"
                 >
-                  Course
+                  Courses
                 </Link>
+                {session && (
+                  <li>
+                    <Link
+                      href="/orders"
+                      className="hover:text-white transition-color"
+                    >
+                      Orders
+                    </Link>
+                  </li>
+                )}
               </li>
+              {session && (
+                <Link
+                  href="/orders"
+                  className="hover:text-white transition-color"
+                >
+                  Orders
+                </Link>
+              )}
               <li>
                 <Link
                   href="/testimonials"
