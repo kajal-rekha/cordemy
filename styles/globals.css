@@ -22,3 +22,7 @@ body {
   width: 100vw;
   height: 100%;
 }
+
+.lock-scroll {
+  overflow: hidden;
+}
