@@ -5,7 +5,11 @@ import { ImQuotesLeft } from "react-icons/im";
 const Slider = ({ slide }) => {
   return (
     <div className="slide py-10 mt-10 ">
-      <div className="w-[65%] md:max-w-screen-md mx-auto overflow-hidden">
+      <div
+        className="w-[65%] md:max-w-screen-md mx-auto overflow-hidden"
+        data-aos="fade-right"
+        data-aos-duration="1000"
+      >
         <div className="">
           <ImQuotesLeft className="text-3xl ml-[-2rem]" />
           <h2 className="text-xl md:text-2xl  font-semibold space-font  uppercase">

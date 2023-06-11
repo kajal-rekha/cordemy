@@ -5,14 +5,14 @@ import React from "react";
 
 const CoursesPage = ({ courses }) => {
   return (
-    <div className="wrapper py-10 mt-40">
+    <div className="wrapper py-10 mt-20">
       <SectionHeader
         span="Courses"
         h2="Discover Diverse Courses for Growth"
         p="Online learning is revolutionizing education, opening doors to new
           opportunities and advancements."
       />
-      <div className="mt-10 flex flex-wrap gap-10">
+      <div className="mt-16 flex flex-wrap gap-10">
         {courses.map((course) => (
           <CourseItem key={course.id} course={course} />
         ))}

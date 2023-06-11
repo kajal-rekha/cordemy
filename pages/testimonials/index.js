@@ -102,7 +102,11 @@ const TestimonialsPage = () => {
 
   return (
     <div className="frame wrapper py-10  min-h-screen">
-      <div className="text-center">
+      <div
+        className="text-center"
+        data-aos="fade-down"
+        data-aos-duration="1000"
+      >
         {" "}
         <h2 className=" text-2xl md:text-3xl uppercase font-bold">
           Testimonials

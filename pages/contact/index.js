@@ -51,10 +51,16 @@ const ContactPage = () => {
 
   return (
     <div className="contact container mx-auto mt-20 min-h-screen">
-      <h2 className="text-5xl text-center font-medium  ">Contact Us</h2>
+      <h2
+        className="text-5xl text-center font-medium"
+        data-aos="fade-down"
+        data-aos-duration="1000"
+      >
+        Contact Us
+      </h2>
       <form
         onSubmit={sendEmail}
-        className="contact-form flex flex-col gap-5 py-10 mx-auto max-w-lg"
+        className="contact-form flex flex-col gap-5 py-10 mx-auto max-w-screen-sm"
         ref={formRef}
       >
         <div className="form-control flex flex-col gap-2">
@@ -66,7 +72,9 @@ const ContactPage = () => {
             name="name"
             placeholder="write your name"
             required
-            className=" name border border-gray-300 focus:border-gray-600 py-4 px-6 rounded-xl outline-none duration-300 "
+            className=" name border border-gray-300 focus:border-gray-600 py-4 px-6 rounded-xl outline-none duration-300"
+            data-aos="fade-right"
+            data-aos-duration="1000"
           />
         </div>
         <div className="form-control flex flex-col gap-2">
@@ -79,6 +87,8 @@ const ContactPage = () => {
             placeholder="write your email"
             required
             className=" email border border-gray-300 focus:border-gray-600 py-4 px-6 rounded-xl outline-none duration-300"
+            data-aos="fade-left"
+            data-aos-duration="1000"
           />
         </div>
 
@@ -93,6 +103,8 @@ const ContactPage = () => {
             rows="1"
             cols="30"
             className="message border border-gray-300 focus:border-gray-600 h-40 rounded-xl outline-none py-5 px-5 resize-none duration-300"
+            data-aos="fade-right"
+            data-aos-duration="1000"
           />
         </div>
         <div className="submit px-2 py-5  rounded-xl bg-black text-center overflow-hidden hover:bg-gray-700 duration-300">

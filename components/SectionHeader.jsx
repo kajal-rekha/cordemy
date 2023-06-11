@@ -1,6 +1,10 @@
 const SectionHeader = ({ span, h2, p }) => {
   return (
-    <div className="flex items-center flex-col text-center gap-1">
+    <div
+      data-aos="fade-up"
+      data-aos-duration="1000"
+      className="flex items-center flex-col text-center gap-1"
+    >
       <span className="uppercase text-sm font-bold tracking-widest">
         {span}
       </span>
