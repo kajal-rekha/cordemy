@@ -1,6 +1,5 @@
 import { buffer } from "micro";
 import prisma from "@/prisma/prisma";
-import "@/preserve.entity.config.json";
 
 const stripe = require("stripe")(process.env.STRIPE_SECRET_KEY);
 const endpointSecret = process.env.STRIPE_SINGING_SECRET;
