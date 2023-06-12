@@ -24,7 +24,7 @@ const Hero = () => {
               data-aos-delay="300"
               data-aos-duration="500"
             >
-              Discover your potential with our course.
+              Discover your potential with our course
             </h1>
           </div>
           <div

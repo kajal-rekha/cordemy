@@ -107,7 +107,11 @@ const ContactPage = () => {
             data-aos-duration="1000"
           />
         </div>
-        <div className="submit px-2 py-5  rounded-xl bg-black text-center overflow-hidden hover:bg-gray-700 duration-300">
+        <div
+          className="submit px-2 py-5  rounded-xl bg-black text-center overflow-hidden hover:bg-gray-700 duration-300"
+          data-aos="fade-left"
+          data-aos-duration="1000"
+        >
           <button role="link" type="submit" className=" text-white uppercase">
             Send
           </button>
