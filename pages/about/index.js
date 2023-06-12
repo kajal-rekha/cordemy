@@ -15,12 +15,12 @@ const AboutPage = () => {
             is accessible to everyone, regardless of their location or financial
             situation. We believe that learning should be fun, engaging, and
             relevant to real-life situations.
-          </p>{" "}
+          </p>
           <p className="text-lg text-gray-600 mb-3" data-aos="fade-up">
-            At Cordemy, we are committed to helping students achieve their goals
+            {`At Cordemy, we are committed to helping students achieve their goals
             and reach their full potential. Our team of experienced instructors
             is dedicated to creating courses that are up-to-date, practical, and
-            designed to meet the needs of today's job market.{" "}
+            designed to meet the needs of today's job market.`}
           </p>
           <p className="text-lg text-gray-600" data-aos="fade-up">
             Overall, Cordemy is a reliable and accessible platform that offers
@@ -54,10 +54,10 @@ const AboutPage = () => {
             Accessible
           </h3>
           <p className="text-lg text-gray-600" data-aos="fade-up">
-            We believe that everyone should have access to high-quality
+            {`We believe that everyone should have access to high-quality
             education, regardless of their location or financial situation.
             That's why we offer courses at an affordable price and make them
-            accessible on any device.{" "}
+            accessible on any device.`}
           </p>
         </div>
         <div className="bg-white p-6 rounded-lg shadow-lg">
@@ -73,10 +73,10 @@ const AboutPage = () => {
             Engaging
           </h3>
           <p className="text-lg text-gray-600" data-aos="fade-up">
-            We understand that learning can be challenging and boring at times.
+            {`We understand that learning can be challenging and boring at times.
             That's why we strive to make our courses fun, engaging, and
             interactive. We use a variety of teaching methods, such as videos,
-            quizzes, and projects, to keep students engaged and motivated.
+            quizzes, and projects, to keep students engaged and motivated.`}
           </p>
         </div>
         <div className="bg-white p-6 rounded-lg shadow-lg">
@@ -92,11 +92,11 @@ const AboutPage = () => {
             Practical
           </h3>
           <p className="text-lg text-gray-600" data-aos="fade-up">
-            We believe that education should be relevant to real-life
+            {` We believe that education should be relevant to real-life
             situations. That's why we focus on creating courses that are
             up-to-date and practical. Our courses are designed to help students
             acquire the skills and knowledge they need to succeed in today's job
-            market.
+            market.`}
           </p>
         </div>
       </div>

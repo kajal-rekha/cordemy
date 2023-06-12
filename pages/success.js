@@ -21,8 +21,8 @@ const SuccessPage = ({ session }) => {
         <h2 className="text-3xl text-gray-700 flex items-center gap-2">
           <span className="text-emerald-500">
             <AiOutlineCheckSquare />
-          </span>{" "}
-          You've entrolled successfully!
+          </span>
+          {`You've entrolled successfully!`}
         </h2>
         <Button href="/orders" placeholder="Go to your orders" />
       </div>
