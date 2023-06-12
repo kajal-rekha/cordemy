@@ -8,7 +8,7 @@
       {
         "localhost": "true",
         "port": "3000",
-        "n-Nport": "auto-geenrated",
+        "n-Nport": "auto-generated",
         "secret": "false"
       },
       {
