@@ -38,33 +38,16 @@ const Footer = () => {
             >
               Quick Links
             </h2>
-            <ul className="text-gray-400  S gap-3">
-              <li>
-                <Link
-                  href="/"
-                  className="hover:text-white transition duration-500 ease-in-out"
-                >
-                  Home
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/courses"
-                  className="hover:text-white transition-color"
-                >
-                  Courses
-                </Link>
-                {session && (
-                  <li>
-                    <Link
-                      href="/orders"
-                      className="hover:text-white transition-color"
-                    >
-                      Orders
-                    </Link>
-                  </li>
-                )}
-              </li>
+            <div className="text-gray-400 gap-3 flex flex-col">
+              <Link href="/" className="hover:text-white transition-color">
+                Home
+              </Link>
+              <Link
+                href="/courses"
+                className="hover:text-white transition-color"
+              >
+                Courses
+              </Link>
               {session && (
                 <Link
                   href="/orders"
@@ -73,31 +56,24 @@ const Footer = () => {
                   Orders
                 </Link>
               )}
-              <li>
-                <Link
-                  href="/testimonials"
-                  className="hover:text-white transition duration-500 ease-in-out"
-                >
-                  Testimonials
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/about"
-                  className="hover:text-white transition duration-500 ease-in-out"
-                >
-                  About
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/contact"
-                  className="hover:text-white transition duration-500 ease-in-out"
-                >
-                  Contact
-                </Link>
-              </li>
-            </ul>
+              <Link
+                href="/testimonials"
+                className="hover:text-white transition-color"
+              >
+                Testimonials
+              </Link>
+
+              <Link href="/about" className="hover:text-white transition-color">
+                About
+              </Link>
+
+              <Link
+                href="/contact"
+                className="hover:text-white transition-color"
+              >
+                Contact
+              </Link>
+            </div>
           </div>
 
           <div className="w-full ">

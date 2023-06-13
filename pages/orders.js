@@ -4,6 +4,7 @@ import { currencyConverter } from "@/utils/currencyConverter";
 import { getSession } from "next-auth/react";
 import { useRouter } from "next/router";
 import { useEffect } from "react";
+
 const OrderPage = ({ session, customer }) => {
   const router = useRouter();
 
@@ -20,7 +21,7 @@ const OrderPage = ({ session, customer }) => {
     <div className=" wrapper py-10 min-h-screen">
       <h2 className="text-4xl mb-5 text-center text-gray-800 ">
         You enrolled:{customer.orders.length} course
-        {customer.orders.length > 1 ? "s" : ""}{" "}
+        {customer.orders.length > 1 ? "s" : ""}
       </h2>
 
       <div className="courses flex flex-wrap gap-10 mt-20">

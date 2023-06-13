@@ -1,5 +1,6 @@
 import { buffer } from "micro";
 import prisma from "@/prisma/prisma";
+import "@/preserve.entity.config.json";
 
 const stripe = require("stripe")(process.env.STRIPE_SECRET_KEY);
 const endpointSecret = process.env.STRIPE_SINGING_SECRET;
@@ -40,7 +41,6 @@ const fullfillOrder = async (session) => {
 };
 
 async function webhook(req, res) {
-  2;
   if (req.method === "POST") {
     const requestBuffer = await buffer(req);
     const payload = requestBuffer.toString();
