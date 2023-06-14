@@ -1,4 +1,4 @@
-# Cordemy: Online Learning Platform
+# Cordemy: An Online Learning Platform
 
 Cordemy is an innovative online learning platform that provides a unique and immersive educational experience. It leverages a powerful tech stack, including Next.js, React, Prisma, Stripe, NextAuth, Tailwind CSS, clsx, and Axios, to deliver a feature-rich platform for learners and instructors.
 
@@ -11,11 +11,13 @@ Cordemy offers an extensive library of diverse courses across various subjects a
 - Vast selection of unique and specialized courses
 - Immersive and interactive interfaces for enhanced user experience
 - Secure authentication and profile management with NextAuth
+- Secure and reliable platform built on Google Cloud Platform (GCP).
 - Efficient database management using Prisma
 - Seamless and secure payment transactions with Stripe integration
 - Visually stunning and customizable layouts with Tailwind CSS
 - Dynamic class variants and styles with clsx
 - Efficient data fetching and communication with Axios
+- Flexible class management capabilities provided by class-variance-authority.
 
 ## Tools and Technologies
 
@@ -23,9 +25,10 @@ Cordemy offers an extensive library of diverse courses across various subjects a
 - **Prisma**: A database toolkit for working with databases using TypeScript or JavaScript.
 - **Stripe**: A popular payment processing platform for secure and reliable payment transactions.
 - **NextAuth**: An authentication library for Next.js applications, providing secure authentication flows.
+- **Axios**: A popular JavaScript library for making HTTP requests, used for efficient data fetching and communication.
+- **Google Cloud Platform (GCP)**: A suite of cloud computing services for building and deploying applications.
 - **Tailwind CSS**: A utility-first CSS framework for creating responsive and customizable UI designs.
 - **clsx**: A utility for constructing CSS class names with conditional and dynamic styles.
-- **Axios**: A popular JavaScript library for making HTTP requests, used for efficient data fetching and communication.
 
 ## Installation
 
