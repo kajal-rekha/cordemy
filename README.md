@@ -20,7 +20,6 @@ Cordemy offers an extensive library of diverse courses across various subjects a
 ## Tools and Technologies
 
 - **Next.js**: A React framework for building server-side rendered and statically generated applications.
-- **React**: A JavaScript library for building user interfaces.
 - **Prisma**: A database toolkit for working with databases using TypeScript or JavaScript.
 - **Stripe**: A popular payment processing platform for secure and reliable payment transactions.
 - **NextAuth**: An authentication library for Next.js applications, providing secure authentication flows.
