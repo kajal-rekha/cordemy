@@ -39,10 +39,10 @@ const AboutPage = () => {
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-            Overall, Cordemy is a reliable and accessible platform that offers
+            {` Overall, Cordemy is a reliable and accessible platform that offers
             high-quality education to people from all walks of life. It is an
             excellent choice for anyone who wants to acquire new skills, expand
-            their knowledge, and achieve their personal and professional goals.
+            their knowledge, and achieve their personal and professional goals.`}
           </p>
         </div>
         <div className="lg:w-1/2" data-aos="fade-up" data-aos-duration="1000">
