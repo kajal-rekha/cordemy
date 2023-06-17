@@ -5,12 +5,11 @@ import Slide from "./Slide";
 const data = [
   {
     id: 1,
-    src: "https://res.cloudinary.com/dh0ado2ir/image/upload/v1685733810/pexels-karolina-grabowska-4467735_nnbxkg.jpg",
-    headline: "Mobile App Development",
-    body: "Create cross-platform mobile apps using React Native framework. Build mobile applications for iOS and Android using JavaScript and reusable UI components.",
+    src: "https://res.cloudinary.com/dh0ado2ir/image/upload/v1686953498/Executive_Education_Online_Programmes_tnswod.jpg",
+    headline: "SEO Mastery Course",
+    body: "Unleash the power of search engine optimization (SEO) to boost your website's visibility and drive organic traffic. Learn keyword research, on-page optimization, link building strategies, and SEO best practices.",
     cta: "Get Started",
   },
-
   {
     id: 2,
     src: "https://res.cloudinary.com/dh0ado2ir/image/upload/v1686947103/pexels-photo-8761047_dchdnc.webp",
@@ -18,6 +17,7 @@ const data = [
     body: "Unlock your creative potential and master the principles of graphic design. Learn industry-standard tools like Adobe Photoshop and Illustrator to create stunning visuals for print and digital media.",
     cta: "Get Started",
   },
+
   {
     id: 3,
     src: "https://res.cloudinary.com/dh0ado2ir/image/upload/v1686952937/1588860283phpzEhoJ5_vjaeno.jpg",
@@ -25,18 +25,19 @@ const data = [
     body: "Discover the art of beauty and fashion. From makeup techniques to styling tips, learn how to enhance your personal style and gain the skills to pursue a career in the glamorous world of beauty and fashion.",
     cta: "Get Started",
   },
+
   {
     id: 4,
-    src: "https://res.cloudinary.com/dh0ado2ir/image/upload/v1686953498/Executive_Education_Online_Programmes_tnswod.jpg",
-    headline: "SEO Mastery Course",
-    body: "Unleash the power of search engine optimization (SEO) to boost your website's visibility and drive organic traffic. Learn keyword research, on-page optimization, link building strategies, and SEO best practices.",
+    src: "https://res.cloudinary.com/dh0ado2ir/image/upload/v1686952564/Vanderbilt_7-800x412_pcvycr.png",
+    headline: "Web Development Course",
+    body: "Embark on an immersive web development adventure, unleashing your creativity with HTML, CSS, and JavaScript. Build captivating websites and unlock the power to shape the digital world.",
     cta: "Get Started",
   },
   {
-    id: 1,
-    src: "https://res.cloudinary.com/dh0ado2ir/image/upload/v1686952564/Vanderbilt_7-800x412_pcvycr.png",
-    headline: "Web Development Course",
-    body: "Learn the fundamentals of web development and build your first website from scratch. Dive into HTML, CSS, and JavaScript to create responsive and interactive web pages. Gain practical experience through hands-on projects and start your journey as a web developer.",
+    id: 5,
+    src: "https://res.cloudinary.com/dh0ado2ir/image/upload/v1685733810/pexels-karolina-grabowska-4467735_nnbxkg.jpg",
+    headline: "Mobile App Development",
+    body: "Create cross-platform mobile apps using React Native framework. Build mobile applications for iOS and Android using JavaScript and reusable UI components.",
     cta: "Get Started",
   },
 ];
