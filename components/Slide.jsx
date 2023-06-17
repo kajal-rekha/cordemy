@@ -4,7 +4,7 @@ const Slide = ({ image }) => {
   return (
     <div className="slide " style={{ backgroundImage: `url(${image.src})` }}>
       <div className="slide-texts container py-10 mx-auto flex flex-col items-start justify-center h-full gap-5 text-white">
-        <h1 className="text-7xl font-bold space-font w-full uppercase ">
+        <h1 className="text-7xl font-bold space-font w-full uppercase">
           {image.headline}
         </h1>
 
