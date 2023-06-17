@@ -1,11 +1,13 @@
 import Link from "next/link";
 import Button from "./Button";
+import Overlay from "./Overlay";
 
 const Slide = ({ image }) => {
   return (
     <div className="slide " style={{ backgroundImage: `url(${image.src})` }}>
-      <div className="slide-texts container py-10 mx-auto flex flex-col items-start justify-center h-full gap-5 text-gray-300">
-        <h1 className="text-7xl text-violet-50 font-bold space-font w-full uppercase ">
+      <Overlay />
+      <div className="slide-texts container py-10 mx-auto flex flex-col items-start justify-center h-full gap-5 text-white">
+        <h1 className="text-7xl font-bold space-font w-full uppercase ">
           {image.headline}
         </h1>
 
@@ -13,7 +15,12 @@ const Slide = ({ image }) => {
           {image.body}
         </p>
 
-        <Button href={image.cta} placeholder="Get Started" color="primary" />
+        <Button
+          href={image.cta}
+          placeholder="Get Started"
+          color="primary"
+          size="default"
+        />
       </div>
     </div>
   );
