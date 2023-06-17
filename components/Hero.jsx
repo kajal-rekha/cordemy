@@ -5,9 +5,9 @@ import Slide from "./Slide";
 const data = [
   {
     id: 1,
-    src: "https://res.cloudinary.com/dh0ado2ir/image/upload/v1686952564/Vanderbilt_7-800x412_pcvycr.png",
-    headline: "Web Development Course",
-    body: "Learn the fundamentals of web development and build your first website from scratch. Dive into HTML, CSS, and JavaScript to create responsive and interactive web pages. Gain practical experience through hands-on projects and start your journey as a web developer.",
+    src: "https://res.cloudinary.com/dh0ado2ir/image/upload/v1685733810/pexels-karolina-grabowska-4467735_nnbxkg.jpg",
+    headline: "Mobile App Development",
+    body: "Create cross-platform mobile apps using React Native framework. Build mobile applications for iOS and Android using JavaScript and reusable UI components.",
     cta: "Get Started",
   },
 
@@ -33,10 +33,10 @@ const data = [
     cta: "Get Started",
   },
   {
-    id: 5,
-    src: "https://res.cloudinary.com/dh0ado2ir/image/upload/v1685733810/pexels-karolina-grabowska-4467735_nnbxkg.jpg",
-    headline: "Mobile App Development",
-    body: "Create cross-platform mobile apps using React Native framework. Build mobile applications for iOS and Android using JavaScript and reusable UI components.",
+    id: 1,
+    src: "https://res.cloudinary.com/dh0ado2ir/image/upload/v1686952564/Vanderbilt_7-800x412_pcvycr.png",
+    headline: "Web Development Course",
+    body: "Learn the fundamentals of web development and build your first website from scratch. Dive into HTML, CSS, and JavaScript to create responsive and interactive web pages. Gain practical experience through hands-on projects and start your journey as a web developer.",
     cta: "Get Started",
   },
 ];
