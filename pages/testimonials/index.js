@@ -1,3 +1,4 @@
+// import Slider from "@/components/Slider";
 // import { useState } from "react";
 // import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
@@ -146,3 +147,9 @@
 // };
 
 // export default TestimonialsPage;
+
+const TestimonialsPage = () => {
+  return <div>TestimonialsPage</div>;
+};
+
+export default TestimonialsPage;
