@@ -1,5 +1,4 @@
 import Hero from "@/components/Hero";
-//import Testimonial from "@/components/Testimonial";
 import { getAllCourses } from "@/prisma/courses";
 import CoursesPage from "./courses";
 import TestimonialsPage from "./testimonials";

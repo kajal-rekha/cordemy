@@ -69,7 +69,7 @@ const data = [
     title: "Beauty and Fashion Essentials - A Comprehensive Course",
     description:
       "The Beauty and Fashion Essentials course exceeded my expectations. I learned practical tips and tricks that have enhanced my personal style and grooming routines. Whether you're a beauty enthusiast or aspiring professional, this course is a must for gaining a comprehensive understanding of beauty and fashion.",
-    src: "https://res.cloudinary.com/dh0ado2ir/image/upload/v1685879753/lauren-brown-hair-horizjpeg_yksutd.jpg",
+    src: "https://res.cloudinary.com/dh0ado2ir/image/upload/v1687032744/images_f4ago8.jpg",
     name: "Sophie Wilson",
     designation: "Fashion Blogger",
   },
@@ -78,7 +78,7 @@ const data = [
     title: " Artificial Intelligence - A Fascinating Course",
     description:
       "The Introduction to Artificial Intelligence course was absolutely fascinating. The course provided a comprehensive overview of AI concepts, Through practical exercises and projects, I gained hands-on experience in AI development. This course sparked my interest in the field of AI and motivated me to further explore its applications.",
-    src: "https://res.cloudinary.com/dh0ado2ir/image/upload/v1685879739/1169740_bqntds.jpg",
+    src: "https://res.cloudinary.com/dh0ado2ir/image/upload/v1685879753/lauren-brown-hair-horizjpeg_yksutd.jpg",
     name: "Daniel Moore",
     designation: "AI Enthusiast",
   },
