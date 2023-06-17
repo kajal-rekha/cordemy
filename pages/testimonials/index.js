@@ -86,8 +86,12 @@ const data = [
 
 const TestimonialsPage = () => {
   return (
-    <div className="testimonials mx-auto wrapper py-10">
-      <h2 className=" text-2xl md:text-3xl text-center uppercase font-bold">
+    <div className="testimonials mx-auto wrapper py-10 mt-20">
+      <h2
+        className=" text-2xl md:text-3xl text-center uppercase font-bold"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+      >
         Testimonials
       </h2>
       <div className="testimonials-wrapper grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 py-10 mt-10">
