@@ -29,7 +29,7 @@ const LoginPage = ({ session }) => {
 
   if (!session) {
     return (
-      <div className="wrapper py-10 min-h-screen">
+      <div className="wrapper py-10 min-h-screen mt-20">
         <SectionHeader
           span={"Login"}
           h2={"Get started with Google"}

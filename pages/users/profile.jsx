@@ -25,7 +25,11 @@ const ProfilePage = ({ session }) => {
     return null;
   }
   return (
-    <div className="min-h-screen wrapper py-10 flex flex-col items-center">
+    <div
+      className="min-h-screen wrapper py-10 flex flex-col items-center mt-20"
+      data-aos="fade-up"
+      data-aos-duration="1000"
+    >
       <Image
         src={session.user.image}
         alt={session.user.name}
@@ -40,9 +44,8 @@ const ProfilePage = ({ session }) => {
         className="flex gap-2 items-center bg-black text-white py-3 px-6 rounded-lg mt-10 hover:bg-gray-700 duration-300"
       >
         <span>
-          {" "}
-          <FiLogOut />{" "}
-        </span>{" "}
+          <FiLogOut />
+        </span>
         Logout
       </button>
     </div>
