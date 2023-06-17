@@ -49,7 +49,10 @@ const Navbar = () => {
                   Orders
                 </Link>
               )}
-              <Link href="/" className="hover:text-white transition-color">
+              <Link
+                href="/testimonials"
+                className="hover:text-white transition-color"
+              >
                 Testimonials
               </Link>
 
