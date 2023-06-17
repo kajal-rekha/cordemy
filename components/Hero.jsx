@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { BsArrowLeft, BsArrowRight } from "react-icons/bs";
-
 import Slide from "./Slide";
+
 const data = [
   {
     id: 1,
@@ -58,7 +58,7 @@ const Hero = () => {
   };
 
   return (
-    <div className="frame relative">
+    <div className="frame relative overflow-x-hidden">
       <div
         className="slider"
         style={{ transform: `translateX(-${100 * currentSlide}vw)` }}
