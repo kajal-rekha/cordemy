@@ -18,7 +18,7 @@ const Navbar = () => {
 
   return (
     <div>
-      <div className="h-20 bg-black text-gray-400 flex items-center">
+      <div className="h-20 fixed top-0 left-0 right-0 bg-black text-gray-400 flex items-center">
         <div className="wrapper flex justify-between items-center">
           <div className="logo" data-aos="fade-right" data-aos-duration="1000">
             <Link href="/" className="text-white font-semibold">

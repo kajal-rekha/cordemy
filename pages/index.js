@@ -5,7 +5,7 @@ import TestimonialsPage from "./testimonials";
 
 const HomePage = ({ courses }) => {
   return (
-    <div>
+    <div className="mt-20">
       <Hero />
       <CoursesPage courses={courses} />
       <TestimonialsPage />
