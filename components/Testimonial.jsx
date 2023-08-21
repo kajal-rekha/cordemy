@@ -1,28 +1,29 @@
 import Image from "next/image";
+import { FaQuoteLeft } from "react-icons/fa";
 const Testimonial = ({ testimonial }) => {
   return (
-    <div
-      className="shadow-md rounded-lg mb-20 px-6"
-      data-aos="fade-up"
-      data-aos-duration="1000"
-    >
-      <div>
-        <h2 className="text-2xl font-medium">{testimonial.title}</h2>
-        <p className="py-10 text-lg text-gray-600">{testimonial.description}</p>
-      </div>
-      <div className="flex gap-5 mt-10 py-5">
-        <div>
+    <div className=" gap-10 text-white/75 bg-black w-[80%] h-[55vh] mx-auto py-10 px-10 md:py-20 md:px-20 rounded-md">
+      <div className="overflow-hidden">
+        <span>
+          <FaQuoteLeft />
+        </span>
+        <p className="text-sm lg:text-lg">{testimonial.description}</p>
+        <div className="flex gap-5 mt-12">
           <Image
             src={testimonial.src}
             alt={testimonial.name}
-            height={50}
-            width={50}
-            className="h-16 w-16 rounded-full"
+            width={300}
+            height={350}
+            priority
+            className="md:w-20 md:h-20 h-16 w-16 rounded-full object-cover"
           />
-        </div>
-        <div>
-          <p className="text-lg font-semibold">{testimonial.name}</p>
-          <p className="text-gray-800">{testimonial.designation}</p>
+
+          <div className="mt-3">
+            <p className="text-sm lg:text-lg font-semibold">
+              {testimonial.name}
+            </p>
+            <p className="text-sm lg:text-lg">{testimonial.designation}</p>
+          </div>
         </div>
       </div>
     </div>

@@ -50,7 +50,7 @@ const ContactPage = () => {
   };
 
   return (
-    <div className="contact container mx-auto mt-20 min-h-screen">
+    <div className="contact container mx-auto mt-28 min-h-screen">
       <h2
         className="text-5xl text-center font-medium"
         data-aos="fade-down"

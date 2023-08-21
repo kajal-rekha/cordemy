@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const AboutPage = () => {
   return (
-    <div className="about container mx-auto py-12">
+    <div className="about container mx-auto py-12 mt-20">
       <h2
         className="text-center text-4xl mb-10"
         data-aos="fade-up"

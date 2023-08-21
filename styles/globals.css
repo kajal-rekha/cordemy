@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -14,7 +14,7 @@ body {
 /* slider */
 .slider {
   height: calc(100vh - 5rem);
-  width: 500vw;
+  width: 900vw;
   display: flex;
   transition: 1s ease;
 }
@@ -22,7 +22,34 @@ body {
 .slide {
   width: 100vw;
   height: 100%;
+  gap: 3rem;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+/* .testimonials {
+  overflow-y: hidden;
+}
+
+.testimonial {
+  width: 900vw;
+  overflow-x: hidden;
+  display: flex;
+  transition: 1s ease;
+  height: 100vh;
+}
+
+.testimonial-slide {
+  width: 60vw;
+} */
+
+/* .testimonial-slide::before {
+  content: "\201C";
+  position: absolute;
+  top: -2rem;
+  left: 0rem;
+  line-height: 1;
+  font-size: 6rem;
+  color: black;
+  z-index: -1000;
+} */

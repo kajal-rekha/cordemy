@@ -5,16 +5,16 @@ import Slide from "./Slide";
 const data = [
   {
     id: 1,
-    src: "https://res.cloudinary.com/dh0ado2ir/image/upload/v1686953498/Executive_Education_Online_Programmes_tnswod.jpg",
-    headline: "SEO Mastery Course",
-    body: "Unleash the power of search engine optimization (SEO) to boost your website's visibility and drive organic traffic. Learn keyword research, on-page optimization, link building strategies, and SEO best practices.",
+    src: "https://res.cloudinary.com/dh0ado2ir/image/upload/v1686947103/pexels-photo-8761047_dchdnc.webp",
+    headline: "Mastering Graphic Design",
+    body: "Unlock your creative potential and master the principles of graphic design. Learn industry-standard tools like Adobe Photoshop and Illustrator to create stunning visuals for print and digital media.",
     cta: "Get Started",
   },
   {
     id: 2,
-    src: "https://res.cloudinary.com/dh0ado2ir/image/upload/v1686947103/pexels-photo-8761047_dchdnc.webp",
-    headline: "Mastering Graphic Design",
-    body: "Unlock your creative potential and master the principles of graphic design. Learn industry-standard tools like Adobe Photoshop and Illustrator to create stunning visuals for print and digital media.",
+    src: "https://res.cloudinary.com/dh0ado2ir/image/upload/v1686953498/Executive_Education_Online_Programmes_tnswod.jpg",
+    headline: "SEO Mastery Course",
+    body: "Unleash the power of search engine optimization (SEO) to boost your website's visibility and drive organic traffic. Learn keyword research, on-page optimization, link building strategies, and SEO best practices.",
     cta: "Get Started",
   },
 
@@ -68,10 +68,10 @@ const Hero = () => {
         ))}
       </div>
 
-      <div className="btns absolute w-screen justify-center bottom-20 m-auto  z-[1] text-white text-2xl flex gap-10 ">
+      <div className="btns absolute w-screen justify-center bottom-10 m-auto  z-[1] text-white text-2xl flex gap-10 ">
         <button
           onClick={prevSlide}
-          className="prev-btn w-14 h-12 lg:h-14 lg:w-20 flex justify-center items-center bg-black text-white border border-white hover:bg-black/75 hover:text-gray-200 hover:border-gray-200 duration-300"
+          className="prev-btn w-14 h-10 lg:h-14 lg:w-20 flex justify-center items-center bg-black text-white border border-white hover:bg-black/75 hover:text-gray-200 hover:border-gray-200 duration-300"
         >
           <span>
             <BsArrowLeft />
@@ -79,7 +79,7 @@ const Hero = () => {
         </button>
         <button
           onClick={nextSlide}
-          className="next-btn  w-14 h-12 lg:h-14 lg:w-20 flex justify-center items-center bg-black text-white border border-white hover:bg-black/75 hover:text-gray-200 hover:border-gray-200 duration-300"
+          className="next-btn  w-14 h-10 lg:h-14 lg:w-20 flex justify-center items-center bg-black text-white border border-white hover:bg-black/75 hover:text-gray-200 hover:border-gray-200 duration-300"
         >
           <span>
             <BsArrowRight />
