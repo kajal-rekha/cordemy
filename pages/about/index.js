@@ -2,14 +2,24 @@ import Image from "next/image";
 
 const AboutPage = () => {
   return (
-    <div className="about container mx-auto py-12 mt-20">
-      <h2
-        className="text-center text-4xl mb-10"
-        data-aos="fade-up"
-        data-aos-duration="1000"
-      >
-        About Cordemy
-      </h2>
+    <div className="about container mx-auto py-12 mt-14">
+      <div className="text-center mb-7">
+        {" "}
+        <h2
+          className="md:text-lg"
+          data-aos="fade-down"
+          data-aos-duration="1500"
+        >
+          About Cordemy
+        </h2>
+        <p
+          className="text-lg md:text-xl"
+          data-aos="fade-down"
+          data-aos-duration="1000"
+        >
+          Cordemy's Distinctive Online Learning Approach
+        </p>
+      </div>
       <div className="flex flex-col lg:flex-row gap-14 mt-20">
         <div className="lg:w-1/2">
           <p
@@ -45,7 +55,12 @@ const AboutPage = () => {
             their knowledge, and achieve their personal and professional goals.`}
           </p>
         </div>
-        <div className="lg:w-1/2" data-aos="fade-up" data-aos-duration="1000">
+        <div
+          className="lg:w-1/2"
+          data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="1000"
+        >
           <Image
             src="https://res.cloudinary.com/dh0ado2ir/image/upload/v1686416263/depositphotos_310552970-stock-photo-young-cheerful-african-american-woman_axzyus.webp"
             alt="about image"
@@ -55,7 +70,6 @@ const AboutPage = () => {
           />
         </div>
       </div>
-
       <div className="mt-28 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 ">
         <div className="bg-white p-6 rounded-lg shadow-lg">
           <Image

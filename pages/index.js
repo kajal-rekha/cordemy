@@ -1,13 +1,16 @@
 import Hero from "@/components/Hero";
 import { getAllCourses } from "@/prisma/courses";
+import AboutPage from "./about";
 import CoursesPage from "./courses";
-//import TestimonialsPage from "./testimonials";
+import Testimonials from "./testimonials";
 
 const HomePage = ({ courses }) => {
   return (
     <div className="mt-20">
       <Hero />
       <CoursesPage courses={courses} />
+      <AboutPage />
+      <Testimonials />
     </div>
   );
 };
