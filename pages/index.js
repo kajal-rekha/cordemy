@@ -1,6 +1,7 @@
 import Hero from "@/components/Hero";
 import { getAllCourses } from "@/prisma/courses";
 import AboutPage from "./about";
+import ContactPage from "./contact";
 import CoursesPage from "./courses";
 import Testimonials from "./testimonials";
 
@@ -11,6 +12,7 @@ const HomePage = ({ courses }) => {
       <CoursesPage courses={courses} />
       <AboutPage />
       <Testimonials />
+      <ContactPage />
     </div>
   );
 };

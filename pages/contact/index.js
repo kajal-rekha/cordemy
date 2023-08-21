@@ -50,9 +50,9 @@ const ContactPage = () => {
   };
 
   return (
-    <div className="contact container mx-auto mt-28 min-h-screen">
+    <div className="contact container mx-auto mt-24 min-h-screen">
       <h2
-        className="text-5xl text-center font-medium"
+        className="text-2xl text-center font-medium"
         data-aos="fade-down"
         data-aos-duration="1000"
       >

@@ -97,10 +97,20 @@ const settings = {
 
 const Testimonials = () => {
   return (
-    <div className=" wrapper mt-40 min-h-screen">
-      <div className="text-center mb-7">
-        <h2 className="md:text-lg">Testimonials</h2>
-        <p className=" text-lg md:text-xl">
+    <div className=" wrapper mt-24 min-h-screen">
+      <div className="text-center">
+        <h2
+          className="md:text-lg"
+          data-aos="fade-down"
+          data-aos-duration="1500"
+        >
+          Testimonials
+        </h2>
+        <p
+          className="text-lg md:text-xl"
+          data-aos="fade-down"
+          data-aos-duration="1000"
+        >
           Hear What Our Students Have to Say!
         </p>
       </div>

@@ -31,7 +31,7 @@ const Footer = () => {
             </p>
           </div>
 
-          <div className="w-full text-center" data-aos="fade-up">
+          <div className="w-full xl:ml-20" data-aos="fade-up">
             <h2
               className="text-2xl font-semibold text-white mb-4"
               data-aos="fade-up"
@@ -78,7 +78,7 @@ const Footer = () => {
 
           <div className="w-full ">
             <div
-              className=" flex flex-col justify-between gap-2 items-center"
+              className=" flex flex-col justify-between gap-2 "
               data-aos="fade-up"
             >
               <h2 className="text-2xl font-semibold text-white mb-4">
@@ -101,7 +101,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="w-full text-center" data-aos="fade-up">
+          <div className="w-full" data-aos="fade-up">
             <h2 className="text-2xl font-semibold text-white mb-4">Support</h2>
             <div>
               <p className="text-gray-400 mb-4">Phone: +1 234 567 890</p>

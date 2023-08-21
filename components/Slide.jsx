@@ -12,7 +12,7 @@ const Slide = ({ image }) => {
         </h1>
 
         <p
-          className="w-full lg:w-2/3 lg:text-xl"
+          className="w-full lg:w-2/3 lg:text-xl text-lg"
           data-aos="fade-left"
           data-aos-duration="1000"
         >

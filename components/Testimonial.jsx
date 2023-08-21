@@ -2,7 +2,11 @@ import Image from "next/image";
 import { FaQuoteLeft } from "react-icons/fa";
 const Testimonial = ({ testimonial }) => {
   return (
-    <div className=" gap-10 text-white/75 bg-black w-[80%] h-[55vh] mx-auto py-10 px-10 md:py-20 md:px-20 rounded-md">
+    <div
+      className="gap-10 text-white/75 bg-black w-[80%] h-[55vh] mx-auto py-10 px-10 md:py-20 md:px-20 rounded-md mt-14"
+      data-aos="fade-up"
+      data-aos-duration="1000"
+    >
       <div className="overflow-hidden">
         <span>
           <FaQuoteLeft />
