@@ -4,7 +4,6 @@ const AboutPage = () => {
   return (
     <div className="about container mx-auto py-12 mt-14">
       <div className="text-center mb-7">
-        {" "}
         <h2
           className="md:text-lg"
           data-aos="fade-down"
