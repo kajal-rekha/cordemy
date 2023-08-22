@@ -62,17 +62,6 @@ const Footer = () => {
               >
                 Testimonials
               </Link>
-
-              <Link href="/about" className="hover:text-white transition-color">
-                About
-              </Link>
-
-              <Link
-                href="/contact"
-                className="hover:text-white transition-color"
-              >
-                Contact
-              </Link>
             </div>
           </div>
 
@@ -82,9 +71,34 @@ const Footer = () => {
               data-aos="fade-up"
             >
               <h2 className="text-2xl font-semibold text-white mb-4">
-                Connect with us
+                More links
               </h2>
-              <div className="social-icons flex gap-5 text-2xl items-center">
+              <div className="text-gray-400 gap-3 flex flex-col">
+                <Link
+                  href="/about"
+                  className="hover:text-white transition-color"
+                >
+                  About
+                </Link>
+
+                <Link
+                  href="/contact"
+                  className="hover:text-white transition-color"
+                >
+                  Contact
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          <div className="w-full" data-aos="fade-up">
+            <h2 className="text-2xl font-semibold text-white mb-4">
+              Connect with us
+            </h2>
+            <div>
+              <p className="text-gray-400 mb-4">Phone: +1 234 567 890</p>
+              <p className="text-gray-400">Email: cordemy123@.com</p>
+              <div className="social-icons flex gap-5 text-2xl items-center mt-5">
                 <Link href="https://www.google.com/">
                   <FaFacebookF className="text-gray-400 hover:text-white mx-auto duration-500" />
                 </Link>
@@ -100,18 +114,10 @@ const Footer = () => {
               </div>
             </div>
           </div>
-
-          <div className="w-full" data-aos="fade-up">
-            <h2 className="text-2xl font-semibold text-white mb-4">Support</h2>
-            <div>
-              <p className="text-gray-400 mb-4">Phone: +1 234 567 890</p>
-              <p className="text-gray-400">Email: cordemy123@.com</p>
-            </div>
-          </div>
         </div>
 
         <div className="justify-center">
-          <div className="lg:w-full md:w-2/3 border-t border-gray-700">
+          <div className="lg:w-full md:w-2/3 border-t border-gray-700 -mt-14">
             <p className="text-center text-white/50 text-lg mt-8">
               &copy; {new Date().getFullYear()} Cordemy. All rights reserved.
             </p>
