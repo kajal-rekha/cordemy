@@ -72,7 +72,7 @@ const ContactPage = () => {
             name="name"
             placeholder="write your name"
             required
-            className=" name border border-gray-300 focus:border-gray-600 py-4 px-6 rounded-xl outline-none duration-300"
+            className="name border border-gray-300 focus:border-gray-600 py-4 px-6 rounded-xl outline-none duration-300"
             data-aos="fade-right"
             data-aos-duration="1000"
           />

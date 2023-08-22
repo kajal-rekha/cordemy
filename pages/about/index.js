@@ -16,7 +16,7 @@ const AboutPage = () => {
           data-aos="fade-down"
           data-aos-duration="1000"
         >
-          Cordemy's Distinctive Online Learning Approach
+          {`Cordemy's Distinctive Online Learning Approach`}
         </p>
       </div>
       <div className="flex flex-col lg:flex-row gap-14 mt-20">
