@@ -3,6 +3,7 @@ import { getAllCourses } from "@/prisma/courses";
 import AboutPage from "./about";
 import ContactPage from "./contact";
 import CoursesPage from "./courses";
+import Faq from "./faq";
 import Testimonials from "./testimonials";
 
 const HomePage = ({ courses }) => {
@@ -11,6 +12,7 @@ const HomePage = ({ courses }) => {
       <Hero />
       <CoursesPage courses={courses} />
       <AboutPage />
+      <Faq />
       <Testimonials />
       <ContactPage />
     </div>

@@ -76,8 +76,8 @@ const Faq = () => {
   };
 
   return (
-    <section className="section-padding border-b border-light/20 mt-32 ">
-      <h2 className="text-center text-2xl">Faq</h2>
+    <section className="section-padding  mb-20">
+      <h2 className="text-center text-2xl mt-10">Faq</h2>
       <div className="wrapper grid grid-col lg:grid-cols-2 gap-10 items-center justify-center mt-14">
         <div
           className="left image w-full h-full  pt-5"
@@ -86,7 +86,7 @@ const Faq = () => {
           data-aos-duration="1000"
         >
           <Image
-            src="https://res.cloudinary.com/dh0ado2ir/image/upload/v1692014505/istockphoto-1349998432-612x612_fqax7e.jpg"
+            src="https://res.cloudinary.com/dh0ado2ir/image/upload/v1692694916/pexels-photo-5428830_zjuubm.webp"
             alt="faq"
             width={800}
             height={1000}
@@ -94,28 +94,27 @@ const Faq = () => {
             className="w-full h-full rounded-lg"
           />
         </div>
-        <div>
+        <div data-aos="fade-left" data-aos-duration="1000">
           {martialsArtFaq.map((faq, index) => (
             <div key={faq.id} className="w-full">
               <div
-                data-aos="fade-up"
-                data-aos-easing="linear"
-                data-aos-duration="1000"
-                className={`faq-item flex justify-between mt-6 bg-dark items-center p-3 shadow-sm shadow-light/30 rounded-md  ${
-                  open === index && "text-light/80 font-semibold"
+                className={`faq-item flex justify-between mt-6  items-center p-3 bg-black shadow-sm shadow-white/30 rounded-md  ${
+                  open === index && "text-white font-semibold"
                 }`}
               >
-                <h3 className="text-lg">0{faq.id + " . " + faq.question}</h3>
+                <h3 className="text-lg text-white/75">
+                  0{faq.id + " . " + faq.question}
+                </h3>
                 <span
                   onClick={() => toggle(index)}
-                  className="text-xl cursor-pointer"
+                  className="text-xl text-white cursor-pointer"
                 >
                   <AiOutlinePlus />
                 </span>
               </div>
               {open === index && (
-                <div className="shadow-sm shadow-light/20 rounded-md bg-dark p-3 mt-2">
-                  <p>{faq.answer}</p>
+                <div className="shadow-sm shadow-white rounded-md  p-3 mt-2 bg-black">
+                  <p className="text-white/75">{faq.answer}</p>
                 </div>
               )}
             </div>
