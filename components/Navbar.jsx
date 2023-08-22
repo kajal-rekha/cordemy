@@ -49,15 +49,18 @@ const Navbar = () => {
                   Orders
                 </Link>
               )}
+
+              <Link href="/about" className="hover:text-white transition-color">
+                About
+              </Link>
+              <Link href="/faq" className="hover:text-white transition-color">
+                Faq
+              </Link>
               <Link
                 href="/testimonials"
                 className="hover:text-white transition-color"
               >
                 Testimonials
-              </Link>
-
-              <Link href="/about" className="hover:text-white transition-color">
-                About
               </Link>
 
               <Link
@@ -132,16 +135,22 @@ const Navbar = () => {
                   )}
 
                   <Link
-                    href="/testimonials"
-                    className="hover:text-white transition-color"
-                  >
-                    Testimonials
-                  </Link>
-                  <Link
                     href="/about"
                     className="hover:text-white transition-color"
                   >
                     About
+                  </Link>
+                  <Link
+                    href="/faq"
+                    className="hover:text-white transition-color"
+                  >
+                    Faq
+                  </Link>
+                  <Link
+                    href="/testimonials"
+                    className="hover:text-white transition-color"
+                  >
+                    Testimonials
                   </Link>
 
                   <Link
