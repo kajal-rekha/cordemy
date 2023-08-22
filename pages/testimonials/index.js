@@ -2,6 +2,7 @@ import Testimonial from "@/components/Testimonial";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import SectionHeader from "@/components/SectionHeader";
 
 const testimonials = [
   {
@@ -97,22 +98,13 @@ const settings = {
 
 const Testimonials = () => {
   return (
-    <div className=" wrapper mt-24 min-h-screen">
+    <div className=" wrapper mt-28 min-h-screen">
       <div className="text-center">
-        <h2
-          className="md:text-lg"
-          data-aos="fade-down"
-          data-aos-duration="1500"
-        >
-          Testimonials
-        </h2>
-        <p
-          className="text-lg md:text-xl"
-          data-aos="fade-down"
-          data-aos-duration="1000"
-        >
-          Hear What Our Students Have to Say!
-        </p>
+        <SectionHeader
+          span="Testimonials"
+          h2="Hear What Our Students Have to Say!"
+          p="Voices of Transformation: How the Digital Frontier and Online Learning Shape Educational Journeys _  Testimonials."
+        />
       </div>
       <Slider {...settings}>
         {testimonials.map((testimonial) => (

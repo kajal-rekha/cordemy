@@ -1,23 +1,15 @@
+import SectionHeader from "@/components/SectionHeader";
 import Image from "next/image";
 
 const AboutPage = () => {
   return (
-    <div className="about wrapper py-12 mt-14">
+    <div className="about wrapper py-12 mt-20">
       <div className="text-center mb-7">
-        <h2
-          className="md:text-lg"
-          data-aos="fade-down"
-          data-aos-duration="1500"
-        >
-          About Cordemy
-        </h2>
-        <p
-          className="text-lg md:text-xl"
-          data-aos="fade-down"
-          data-aos-duration="1000"
-        >
-          {`Cordemy's Distinctive Online Learning Approach`}
-        </p>
+        <SectionHeader
+          span="About"
+          h2="Cordemy's Distinctive Online Learning Approach"
+          p="Exploring Education's Evolution, Embracing the Digital Frontier Through Online Learning's Transformative Journey."
+        />
       </div>
       <div className="grid grid-cols md:grid-cols-[50%_auto] gap-14 mt-20">
         <div className="">

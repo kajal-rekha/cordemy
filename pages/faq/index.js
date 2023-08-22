@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import { AiOutlinePlus } from "react-icons/ai";
+import SectionHeader from "@/components/SectionHeader";
 
 const martialsArtFaq = [
   {
@@ -58,12 +59,6 @@ const martialsArtFaq = [
     answer:
       "Cordemy provides a user-friendly dashboard that allows you to track your progress in each enrolled course. You can see which modules you've completed and your overall performance.",
   },
-  {
-    id: 10,
-    question: "Can I suggest a course topic for Cordemy?",
-    answer:
-      "Absolutely! Cordemy values user feedback. You can submit course topic suggestions through the platform. The team will consider these suggestions when developing new courses.",
-  },
 ];
 const Faq = () => {
   const [open, setOpen] = useState(null);
@@ -76,8 +71,12 @@ const Faq = () => {
   };
 
   return (
-    <section className="section-padding  mb-20">
-      <h2 className="text-center text-2xl mt-10">Faq</h2>
+    <section className="section-padding  mb-20 mt-28">
+      <SectionHeader
+        span="Faq"
+        h2=" Navigating Cordemy's Innovative Online Education Landscape"
+        p="Unveiling Insights About Our Unconventional Online Learning Approach - Your Questions Answered!"
+      />
       <div className="wrapper grid grid-col lg:grid-cols-2 gap-10 items-center justify-center mt-14">
         <div
           className="left image w-full h-full  pt-5"
