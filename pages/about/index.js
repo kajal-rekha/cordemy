@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const AboutPage = () => {
   return (
-    <div className="about container mx-auto py-12 mt-14">
+    <div className="about wrapper py-12 mt-14">
       <div className="text-center mb-7">
         <h2
           className="md:text-lg"
@@ -19,8 +19,8 @@ const AboutPage = () => {
           {`Cordemy's Distinctive Online Learning Approach`}
         </p>
       </div>
-      <div className="flex flex-col lg:flex-row gap-14 mt-20">
-        <div className="lg:w-1/2">
+      <div className="grid grid-cols md:grid-cols-[50%_auto] gap-14 mt-20">
+        <div className="">
           <p
             className="text-lg mb-3 text-gray-600"
             data-aos="fade-up"
@@ -55,7 +55,7 @@ const AboutPage = () => {
           </p>
         </div>
         <div
-          className="lg:w-1/2"
+          className="w-full h-full"
           data-aos="flip-left"
           data-aos-easing="ease-out-cubic"
           data-aos-duration="1000"
@@ -63,9 +63,10 @@ const AboutPage = () => {
           <Image
             src="https://res.cloudinary.com/dh0ado2ir/image/upload/v1686416263/depositphotos_310552970-stock-photo-young-cheerful-african-american-woman_axzyus.webp"
             alt="about image"
-            className="rounded-lg shadow-lg"
             height={650}
             width={650}
+            priority
+            className="rounded-lg shadow-lg w-full h-full"
           />
         </div>
       </div>

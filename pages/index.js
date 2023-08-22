@@ -7,7 +7,7 @@ import Testimonials from "./testimonials";
 
 const HomePage = ({ courses }) => {
   return (
-    <div className="mt-20">
+    <div className="mt-20 overflow-x-hidden">
       <Hero />
       <CoursesPage courses={courses} />
       <AboutPage />

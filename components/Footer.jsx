@@ -11,7 +11,7 @@ const Footer = () => {
   const { data: session } = useSession();
   return (
     <footer className="bg-black">
-      <div className="container mx-auto px-16 md:px-0 py-16">
+      <div className="wrapper py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 pb-20  gap-10 md:gap-6 lg:gap-4">
           <div className="w-full">
             <Link
@@ -112,7 +112,7 @@ const Footer = () => {
 
         <div className="justify-center">
           <div className="lg:w-full md:w-2/3 border-t border-gray-700">
-            <p className="text-center text-gray-800 text-lg mt-8">
+            <p className="text-center text-white/50 text-lg mt-8">
               &copy; {new Date().getFullYear()} Cordemy. All rights reserved.
             </p>
           </div>
