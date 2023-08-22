@@ -9,7 +9,7 @@ const SectionHeader = ({ span, h2, p }) => {
         {span}
       </span>
       <h2 className="text-2xl">{h2}</h2>
-      <p className="w-3/5 text-gray-500">{p}</p>
+      <p className="lg:w-3/5  text-gray-500">{p}</p>
     </div>
   );
 };
