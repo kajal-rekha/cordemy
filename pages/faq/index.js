@@ -80,8 +80,7 @@ const Faq = () => {
       <div className="wrapper grid grid-col lg:grid-cols-2 gap-10 items-center justify-center mt-14">
         <div
           className="left image w-full h-full  pt-5"
-          data-aos="flip-left"
-          data-aos-easing="ease-out-cubic"
+          data-aos="fade-right"
           data-aos-duration="1000"
         >
           <Image
