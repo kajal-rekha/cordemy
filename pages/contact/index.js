@@ -60,8 +60,7 @@ const ContactPage = () => {
       <div className="grid grid-cols  wrapper lg:grid-cols-[45%_auto] gap-20 mt-20">
         <div
           className=" w-full h-[85%] mt-10"
-          data-aos="flip-right"
-          data-aos-easing="ease-out-cubic"
+          data-aos="fade-right"
           data-aos-duration="1000"
         >
           <Image
