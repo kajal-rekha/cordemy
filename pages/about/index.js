@@ -48,8 +48,7 @@ const AboutPage = () => {
         </div>
         <div
           className="w-full h-full"
-          data-aos="flip-left"
-          data-aos-easing="ease-out-cubic"
+          data-aos="fade-down"
           data-aos-duration="1000"
         >
           <Image
@@ -67,7 +66,7 @@ const AboutPage = () => {
           <Image
             src="https://res.cloudinary.com/dh0ado2ir/image/upload/v1683927749/pexels-anna-shvets-5325054_qss8by.jpg"
             alt=""
-            className="w-28 h-20 mx-auto mb-6 rounded-sm"
+            className="w-28 h-20 mb-6 rounded-sm"
             data-aos="fade-up"
             data-aos-duration="1000"
             height={500}
@@ -95,7 +94,7 @@ const AboutPage = () => {
           <Image
             src="https://res.cloudinary.com/dh0ado2ir/image/upload/v1683927737/pexels-erik-mclean-6284359_tjrmn0.jpg"
             alt=""
-            className="w-28 h-20 mx-auto mb-6 rounded-sm"
+            className="w-28 h-20  mb-6 rounded-sm"
             data-aos="fade-up"
             data-aos-duration="1000"
             height={500}
@@ -119,7 +118,7 @@ const AboutPage = () => {
           <Image
             src="https://res.cloudinary.com/dh0ado2ir/image/upload/v1683928185/pexels-nataliya-vaitkevich-5186379_mm5y2j.jpg"
             alt="images"
-            className="w-28 h-20 mx-auto mb-6 rounded-sm"
+            className="w-28 h-20 mb-6 rounded-sm"
             data-aos="fade-up"
             data-aos-duration="1000"
             height={500}
