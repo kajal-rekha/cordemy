@@ -52,7 +52,7 @@ const AboutPage = () => {
           data-aos-duration="1000"
         >
           <Image
-            src="https://res.cloudinary.com/dh0ado2ir/image/upload/v1686416263/depositphotos_310552970-stock-photo-young-cheerful-african-american-woman_axzyus.webp"
+            src="https://res.cloudinary.com/dh0ado2ir/image/upload/v1696094896/360_F_460513754_lpPwyGAx8xCG3iznAZlNkET5C2V3hRef_wqiovz.jpg"
             alt="about image"
             height={650}
             width={650}
