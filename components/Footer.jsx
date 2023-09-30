@@ -10,7 +10,7 @@ import {
 const Footer = () => {
   const { data: session } = useSession();
   return (
-    <footer className="bg-black">
+    <footer className="bg-black mt-14">
       <div className="wrapper py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 pb-20  gap-10 md:gap-6 lg:gap-4">
           <div className="w-full">
