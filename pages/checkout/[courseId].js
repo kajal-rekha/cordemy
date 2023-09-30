@@ -58,7 +58,7 @@ const Checkout = ({ course }) => {
   };
 
   return (
-    <div className="wrapper py-10 min-h-screen">
+    <div className="wrapper py-10 min-h-screen mt-32">
       <SectionHeader
         span={"Checkout"}
         h2={"Personalize Your Order by Sharing Your Details!"}
@@ -71,7 +71,12 @@ const Checkout = ({ course }) => {
           className="flex flex-col gap-5 mt-10 w-full lg:w-[35rem]"
         >
           <div className="form-control flex flex-col gap-2">
-            <label htmlFor="name" className="cursor-pointer">
+            <label
+              htmlFor="name"
+              className="cursor-pointer"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+            >
               Name
             </label>
             <input
@@ -81,11 +86,18 @@ const Checkout = ({ course }) => {
               value={formData.name}
               readOnly
               className="outline-none border py-3 px-4 rounded-lg focus:border-gray-700"
+              data-aos="fade-left"
+              data-aos-duration="1000"
             />
           </div>
 
           <div className="form-control flex flex-col gap-2">
-            <label htmlFor="email" className="cursor-pointer">
+            <label
+              htmlFor="email"
+              className="cursor-pointer"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+            >
               Email
             </label>
             <input
@@ -95,11 +107,18 @@ const Checkout = ({ course }) => {
               value={formData.email}
               readOnly
               className="outline-none border py-3 px-4 rounded-lg focus:border-gray-700"
+              data-aos="fade-left"
+              data-aos-duration="1000"
             />
           </div>
 
           <div className="form-control flex flex-col gap-2">
-            <label htmlFor="mobile" className="cursor-pointer">
+            <label
+              htmlFor="mobile"
+              className="cursor-pointer"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+            >
               Phone number
             </label>
             <input
@@ -112,11 +131,18 @@ const Checkout = ({ course }) => {
               }
               required
               className="outline-none border py-3 px-4 rounded-lg focus:border-gray-700"
+              data-aos="fade-left"
+              data-aos-duration="1000"
             />
           </div>
 
           <div className="form-control flex flex-col gap-2">
-            <label htmlFor="address" className="cursor-pointer">
+            <label
+              htmlFor="address"
+              className="cursor-pointer"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+            >
               Address
             </label>
             <input
@@ -129,11 +155,18 @@ const Checkout = ({ course }) => {
               }
               required
               className="outline-none border py-3 px-4 rounded-lg focus:border-gray-700"
+              data-aos="fade-left"
+              data-aos-duration="1000"
             />
           </div>
 
           <div className="form-control flex flex-col gap-2">
-            <label htmlFor="address" className="cursor-pointer">
+            <label
+              htmlFor="address"
+              className="cursor-pointer"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+            >
               Course title
             </label>
             <input
@@ -143,11 +176,18 @@ const Checkout = ({ course }) => {
               value={formData.courseTitle}
               readOnly
               className="outline-none border py-3 px-4 rounded-lg focus:border-gray-700"
+              data-aos="fade-left"
+              data-aos-duration="1000"
             />
           </div>
 
           <div className="form-control flex flex-col gap-2">
-            <label htmlFor="address" className="cursor-pointer">
+            <label
+              htmlFor="address"
+              className="cursor-pointer"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+            >
               Price (USD)
             </label>
             <input
@@ -157,6 +197,8 @@ const Checkout = ({ course }) => {
               value={formData.price}
               readOnly
               className="outline-none border py-3 px-4 rounded-lg focus:border-gray-700"
+              data-aos="fade-left"
+              data-aos-duration="1000"
             />
           </div>
 
@@ -164,6 +206,8 @@ const Checkout = ({ course }) => {
             role="link"
             type="submit"
             className="bg-black py-4 rounded-lg text-white uppercase hover:bg-gray-700 duration-300"
+            data-aos="fade-up"
+            data-aos-duration="1000"
           >
             Proceed to checkout
           </button>
