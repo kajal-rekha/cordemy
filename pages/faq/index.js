@@ -77,7 +77,7 @@ const Faq = () => {
         h2=" Navigating Cordemy's Innovative Online Education Landscape"
         p="Unveiling Insights About Our Unconventional Online Learning Approach - Your Questions Answered!"
       />
-      <div className="wrapper grid grid-col lg:grid-cols-2 gap-10 items-center justify-center mt-14">
+      <div className="wrapper grid grid-col lg:grid-cols-2 gap-20 items-center justify-center mt-14">
         <div
           className="left image w-full h-full  pt-5"
           data-aos="fade-right"

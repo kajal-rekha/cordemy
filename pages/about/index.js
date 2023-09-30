@@ -48,7 +48,7 @@ const AboutPage = () => {
         </div>
         <div
           className="w-full h-full"
-          data-aos="fade-down"
+          data-aos="fade-up"
           data-aos-duration="1000"
         >
           <Image
