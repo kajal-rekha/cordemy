@@ -99,17 +99,14 @@ const Footer = () => {
               <p className="text-gray-400 mb-4">Phone: +1 234 567 890</p>
               <p className="text-gray-400">Email: cordemy123@.com</p>
               <div className="social-icons flex gap-5 text-2xl items-center mt-5">
-                <Link href="https://www.google.com/">
+                <Link href="https://www.facebook.com/anowar.kajal">
                   <FaFacebookF className="text-gray-400 hover:text-white mx-auto duration-500" />
                 </Link>
-                <Link href="https://www.google.com/">
+                <Link href="https://www.linkedin.com/in/kajal-rekha-81262b264//">
                   <FaLinkedinIn className="text-gray-400 hover:text-white mx-auto duration-500" />
                 </Link>
-                <Link href="https://www.google.com/">
+                <Link href="https://twitter.com/KajalRekha14">
                   <FaTwitter className="text-gray-400 hover:text-white mx-auto duration-500" />
-                </Link>
-                <Link href="https://www.google.com/">
-                  <FaInstagram className="text-gray-400 hover:text-white mx-auto duration-500" />
                 </Link>
               </div>
             </div>
